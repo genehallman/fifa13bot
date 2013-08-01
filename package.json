@@ -2,6 +2,10 @@
   "name": "fifa13bot",
   "version": "0.0.1",
   "author": "Gene Hallman <genehallman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/genehallman/fifa13bot.git"
+  },
   "main": "index.js",
   "dependencies": {
     "request": "~2.25.0",
