@@ -130,3 +130,11 @@ AuctionClient.prototype.updateItems = function(tradeIds, userCallback) {
     userCallback(null, body);
   });
 };
+
+AuctionClient.prototype.bid = function(tradeId, bid, userCallback) {
+  var json = {bid: bid};
+  var url = 'https://utas.s2.fut.ea.com/ut/game/fifa13/trade/'+tradeId+'/bid';
+  this.request.post(url, {json:json, headers: this.headers}, function(err, resp, body) {
+    userCallback(null, body);
+  });
+};
