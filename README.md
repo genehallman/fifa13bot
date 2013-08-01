@@ -3,7 +3,7 @@ fifa13bot
 
 A library for scripted searching and trading on the FIFA 13 Auction House.
 
-# Getting Started
+## Getting Started
 
 Prerequisites:
   * node.js >= v0.8.0
