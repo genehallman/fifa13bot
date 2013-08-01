@@ -10,9 +10,9 @@ Prerequisites:
 
 To run the example:
 
-  $ git clone git@github.com:genehallman/fifa13bot.git
-  $ cd fifa13bot
-  $ cp config.example.js config.js
-  $ vi config.js # Fill in the values
-  $ npm install
-  $ npm start
+    $ git clone git@github.com:genehallman/fifa13bot.git
+    $ cd fifa13bot
+    $ cp config.example.js config.js
+    $ vi config.js # Fill in the values
+    $ npm install
+    $ npm start
