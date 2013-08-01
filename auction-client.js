@@ -138,3 +138,12 @@ AuctionClient.prototype.bid = function(tradeId, bid, userCallback) {
     userCallback(null, body);
   });
 };
+
+
+AuctionClient.prototype.credits = function(userCallback) {
+  var json = {};
+  var url = 'https://utas.s2.fut.ea.com/ut/game/fifa13/user/credits';
+  this.request.post(url, {json:json, headers: this.headers}, function(err, resp, body) {
+    userCallback(null, body);
+  });
+};
