@@ -1,0 +1,14 @@
+{
+  "name": "fifa13bot",
+  "version": "0.0.1",
+  "author": "Gene Hallman <genehallman@gmail.com>",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.25.0",
+    "cheerio": "~0.12.1",
+    "async": "~0.2.9"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
