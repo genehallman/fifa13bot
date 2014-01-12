@@ -3,7 +3,7 @@ var async = require('async');
 var md5 = require('./md5.js');
 
 exports.connect = function(email, password, securityAnswer, userCallback) {
-  var request = require('request').defaults({jar:true});
+  var request = require('request').defaults({jar:true, headers: {"User-Agent": "fifa13bot"}});
 
   async.auto({
     loginHtml: function(callback, results) {
